@@ -1,8 +1,16 @@
 body {
   background-color: darkblue;
 }
-.nowrap { white-space: nowrap; } 
-.center { text-align: center; color: white; }
+
+.nowrap { 
+  white-space: nowrap;
+} 
+
+.center { 
+  text-align: center; 
+  color: white;
+}
+
 #text {
   background-color: black;
   color: white;
