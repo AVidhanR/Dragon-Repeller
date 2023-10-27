@@ -1,21 +1,12 @@
 body {
   background-color: darkblue;
-  font-family: Georgia, "Times New Roman", Times, serif;
 }
-
-.nowrap {
-  white-space: nowrap;
-}
-
-.center {
-  text-align: center;
-  color: white;
-}
+.nowrap { white-space: nowrap; } 
+.center { text-align: center; color: white; }
 #text {
   background-color: black;
   color: white;
-  padding: 15px;
-  word-spacing: 0.2em;
+  padding: 10px;
 }
 
 #game {
@@ -25,13 +16,11 @@ body {
   color: white;
   margin: 0 auto;
   padding: 10px;
-  border-radius: 15px;
-  margin-top: 3%;
 }
 
 #controls {
   border: 1px black solid;
-  padding: 8px;
+  padding: 5px;
 }
 
 #stats {
@@ -50,13 +39,4 @@ body {
 
 .stat {
   padding-right: 10px;
-  font-size: large;
-  font-weight: bolder;
-}
-
-#button1,
-#button2,
-#button3 {
-  font-size: medium;
-  font-weight: bold;
 }
